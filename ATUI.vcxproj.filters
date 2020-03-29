@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ATUIHeaders">
+      <UniqueIdentifier>{f303ce96-5275-4af2-b5e8-83d2ff7dbfd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containers">
+      <UniqueIdentifier>{12844d22-1364-476d-8feb-662ce36d0ebb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Elements">
+      <UniqueIdentifier>{678d2c7a-8b3e-4a8b-bd9b-b23e7ed5cc1b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ATUI.h">
+      <Filter>ATUIHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="IContainer.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="IElement.h">
+      <Filter>Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="DEFINES.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ATUI.cpp">
+      <Filter>ATUIHeaders</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
